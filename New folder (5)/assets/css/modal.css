@@ -1,0 +1,204 @@
+#rei {
+  cursor: pointer;
+  transition: 1s;
+}
+
+#rei:hover {
+    opacity: 0.3;
+}
+#jen {
+  cursor: pointer;
+  transition: 1s;
+}
+
+#jen:hover {
+    opacity: 0.3;
+}
+#cat {
+  cursor: pointer;
+  transition: 1s;
+}
+
+#cat:hover {
+    opacity: 0.3;
+}
+#hart {
+  cursor: pointer;
+  transition: 1s;
+}
+
+#hart:hover {
+    opacity: 0.3;
+}
+#iva {
+  cursor: pointer;
+  transition: 1s;
+}
+
+#iva:hover {
+    opacity: 0.3;
+}
+#nad {
+  cursor: pointer;
+  transition: 1s;
+}
+
+#nad:hover {
+    opacity: 0.3;
+}
+#lisa {
+  cursor: pointer;
+  transition: 1s;
+}
+
+#lisa:hover {
+    opacity: 0.3;
+}
+#kat {
+  cursor: pointer;
+  transition: 1s;
+}
+
+#kat:hover {
+    opacity: 0.3;
+}
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 100%; 
+  padding: 90px; 
+  width: 100%; 
+  height: 100%; 
+  background-color: rgba(0, 0, 0, 0.753);
+}
+.modal-content {
+  margin: auto;
+  width: 100%;
+  max-width: 400px;
+}
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  font-size: 40px;
+  color: white;
+  transition: 0.3s;
+}
+.close:hover,
+.close:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+.close2 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  font-size: 40px;
+  color: white;
+  transition: 0.3s;
+}
+.close2:hover,
+.close2:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+.close3 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  font-size: 40px;
+  color: white;
+  transition: 0.3s;
+}
+.close3:hover,
+.close3:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+.close4 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  font-size: 40px;
+  color: white;
+  transition: 0.3s;
+}
+.close4:hover,
+.close4:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+.close5 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  font-size: 40px;
+  color: white;
+  transition: 0.3s;
+}
+.close5:hover,
+.close5:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+.close6 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  font-size: 40px;
+  color: white;
+  transition: 0.3s;
+}
+.close6:hover,
+.close6:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+.close7 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  font-size: 40px;
+  color: white;
+  transition: 0.3s;
+}
+.close7:hover,
+.close7:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+.close8 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  font-size: 40px;
+  color: white;
+  transition: 0.3s;
+}
+.close8:hover,
+.close8:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+@media only screen and (max-width: 1000px){
+  .modal-content {
+    width: 100%;
+  }
+}
